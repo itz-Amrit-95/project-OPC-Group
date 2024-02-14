@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav .nav-item .nav-link {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+
+
+}
+
+.container .nav .nav-item .nav-link {
+    font-size: 12px;
+}
+
+/* .container .nav .nav-item .active{
+    background-color: rgb(232, 231, 228);
+    color: black;
+    border-color: gray;
+  } */
+.card .img-fluid {
+    height: 240px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.price-text {
+    font-size: 25px;
+    color: rgb(83, 2, 158);
+    font-weight: 700;
+}
+
+.card-body p small {
+    color: red;
+    font-weight: 700;
+}
+
+.card {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 100%;
+}
+
+.row .more-text span {
+    display: none;
+}

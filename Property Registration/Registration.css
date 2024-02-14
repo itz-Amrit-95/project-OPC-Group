@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#svg-bg {
+    background-color: #723CFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='68.2' stroke-opacity='0.16' %3E%3Ccircle fill='%23723CFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%237236ef' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%237131df' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%236f2cd0' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%236c27c1' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%236923b3' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23651fa5' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23601b97' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%235b188a' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%2356157d' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23501270' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%234a1064' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23430e58' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%233c0c4d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23360b42' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%232f0a37' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2327082d' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210524' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    border-radius: 25% 25% 25% 43% / 0% 0% 15% 12%;
+}
+
+text {
+    color: wheat;
+}
+
+.area-start {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* cards */
+#card-2 {
+    display: flexa;
+    align-items: center;
+    justify-content: center;
+}
+
+#dream {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 290px;
+
+
+
+    background: rgb(163, 139, 195);
+    background: linear-gradient(90deg, rgba(163, 139, 195, 1) 0%, rgba(163, 139, 195, 1) 2%, rgba(163, 139, 195, 1) 100%);
+}
+
+.contact {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+#get-in-touch {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#quries {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+}
+
+strong {
+    font-weight: 100;
+}
+
+
+.more-text-content {
+    display: none;
+}
+
+.toggle-content.show .more-text-content {
+    display: block;
+}

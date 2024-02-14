@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.space-wallpepr {
+    background-image: url(./wallpaperflare.com_wallpaper-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 600px;
+
+    width: 100%;
+    position: relative;
+}
+
+.space-wallpepr:hover {
+    background-image: url(./wallpaperflare.com_wallpaper-2\ copy.jpg);
+    transition: 3s ease-in-out;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    color: rgb(246, 240, 240);
+    text-shadow: 3px 3px #1f1e1e;
+
+    top: 520px;
+    left: 11%;
+    font-size: 30px
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.space-interior-content {
+    height: 300px;
+    width: 78%;
+    margin: auto;
+}
+
+.interior-content {
+    width: 40%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.interior-content h4 {
+    color: brown;
+    font-size: 30px;
+}
+
+/* swiper */
+swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  .swiper-pagination{
+   
+    height: 28px;
+}
+.fontawsome i{
+    color: #3c081b;
+    position: absolute;
+    top: 19px;
+    left: 383px;
+}
+
+  
+

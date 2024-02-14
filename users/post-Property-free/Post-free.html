@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-property-free</title>
+    <link rel="stylesheet" href="./Post-free.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <section>
+        <div class="container w-75 pb-5 pt-3">
+            <div class="row pt-4">
+                <div class="col-md-6 col-sm-6">
+                    <div class="head-sell-rent pb-5">
+                        <h1>Sell or Rent your Property</h1>
+                        <p>You are posting this property <span class="badge text-bg-warning fs-5">Free</span></p>
+                    </div>
+                    <div class="listing-content d-flex align-items-center">
+                        <p class="btn btn-primary disabled pe-4">Listing Package</p>
+                        <p class="ps-5">1 Standard Listing - Free</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 d-flex align-items-center justify-content-evenly">
+                    <img src="./Unknown-15" class=" img-fluid h-100" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <form class="row  needs-validation d-block" novalidate>
+        <section>
+            <div class="container w-75 pb-4">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="pb-4">Property Details</h2>
+
+
+                        <div class="form-checks">
+                            <label for="form-check" class="pe-3">For</label>
+                            <div class="form-check form-check-inline">
+
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Sale</label>
+
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Rent/ Leas</label>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom04" class="form-label">Property Type</label>
+                            <select class="form-select scrollable-menu" id="validationCustom04" required>
+                                <option selected disabled value="">Select Property Type</option>
+                                <option class="fw-bolder">All Residental</option>
+                                <option value="">Flat/Apartment</option>
+                                <option value="">Residental House</option>
+                                <option value="">Villa</option>
+                                <option value="">Builder Floor Apartment</option>
+                                <option value="">Residental Land/Plot</option>
+                                <option value="">Pent House</option>
+                                <option value="">Studio Apartment</option>
+                                <option value="">Commercial Office Space</option>
+                                <option value="">Agricultural Land</option>
+                                <option value="">Commercial Land/showrooom/Shop</option>
+
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container w-75  pt-4 pb-4">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <h2 class="pb-2">Property Location</h2>
+
+
+
+                        <label for="validationCustom03" class="form-label">City</label>
+                        <input type="text" class="form-control w-50" placeholder="Enter the city name"
+                            id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+
+
+                        <label for="validationCustom03" class="form-label">Locality</label>
+                        <input type="text" class="form-control w-50" placeholder="Enter Locality"
+                            id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container w-75 pb-4">
+                <div class="row">
+                    <h2 class="pb-4">Property Features</h2>
+
+
+
+
+
+                    <div class="col-md-2">
+                        <label for="validationCustom04" class="form-label">Bedroom</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" style="width: 40%;"
+                            required>
+                            <option selected value="">0</option>
+                            <option class="fw-bolder">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="validationCustom04" class="form-label">Balconies</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" style="width: 40%;"
+                            required>
+                            <option selected value="">0</option>
+                            <option class="fw-bolder">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="validationCustom04" class="form-label">Floors Number</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" style="width: 100%;"
+                            required>
+                            <option value="">Upper basement</option>
+                            <option value="">Lower basement</option>
+                            <option value="">Middle basement</option>
+                            <option selected value="">0</option>
+                            <option class="fw-bolder">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="row pt-4">
+                    <label for="" class="pb-2">Furniture status</label>
+                    <div class="col">
+
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
+                                checked>
+                            <label class="btn btn-outline-primary" for="btnradio1">Furnished</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio2">Unfurnished</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio3">Semi-furnished</label>
+                        </div>
+                        <div class="col-md-3 pt-3">
+                            <label for="validationCustom04" class="form-label">Bathroom</label>
+                            <select class="form-select scrollable-menu" id="validationCustom04" required>
+
+                                <option class="fw-bolder">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">Above 11</option>
+
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3 pt-3">
+                            <label for="validationCustom04" class="form-label">Cabinet Meeting Room</label>
+                            <select class="form-select scrollable-menu" id="validationCustom04" required>
+
+                                <option class="fw-bolder">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">Above 11</option>
+
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="form-checks pt-3">
+                            <label for="form-check" class="pe-3">Willing to modify interiors
+                            </label>
+                            <div class="form-check form-check-inline">
+
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Yes</label>
+
+
+                            </div>
+                            <div class="form-check form-check-inline">
+
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">No</label>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="long-period pt-4">
+
+
+
+                        <div class="col-md-6 ">
+                            <label for="validationCustom03" class="form-label">Lock-in Period (In Years)</label>
+                            <input type="number" class="form-control w-50" placeholder="Enter Number"
+                                id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        <section>
+            <div class="container w-75">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-checks pb-1">
+                            <label for="form-check" class="pe-3">Is Main Road Facing</label>
+                            <div class="form-check form-check-inline">
+
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio1s" value="option3">
+                                <label class="form-check-label" for="inlineRadio1">Yes</label>
+
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio2" value="option4">
+                                <label class="form-check-label" for="inlineRadio2">No</label>
+                            </div>
+
+                        </div>
+                        <div class="form-checks pb-1">
+                            <label for="form-check" class="pe-3">Corner Shop</label>
+                            <div class="form-check form-check-inline">
+
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio1s" value="option3">
+                                <label class="form-check-label" for="inlineRadio1">yes</label>
+
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio2" value="option4">
+                                <label class="form-check-label" for="inlineRadio2">NO</label>
+                            </div>
+
+                        </div>
+                        <div class="form-checks pb-1">
+                            <label for="form-check" class="pe-3">Shared Office Space</label>
+                            <div class="form-check form-check-inline">
+
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                    id="inlineRadio1s" value="option3">
+                                <label class="form-check-label" for="inlineRadio1">Yes</label>
+
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                    id="inlineRadio2" value="option4">
+                                <label class="form-check-label" for="inlineRadio2">No</label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">How old is the PG</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" required>
+                            <option selected disabled value="">Select</option>
+                            <option class="fw-bolder">1 year</option>
+                            <option value="">2 year</option>
+                            <option value="">3 year</option>
+                            <option value="">4 year</option>
+                            <option value="">above 4 year</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">Tenants You Prefer</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" required>
+                            <option selected disabled value="">Select</option>
+                            <option class="fw-bolder">Profesional</option>
+                            <option value="">Students</option>
+                            <option value="">Both</option>
+
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row  pt-3">
+                    <div class="col-md-3 pb-3">
+                        <label for="validationCustom04" class="form-label">No. of Rooms in PG</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" required>
+                            <option selected disabled value="">Select</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">7</option>
+                            <option value="">Above 7</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+
+                    </div>
+                    <div class="form-checks pb-1 pt-1">
+                        <label for="form-check" class="pe-3">Attached Bathroom</label>
+                        <div class="form-check form-check-inline">
+
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio1s"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio1">Yes</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio2"
+                                value="option4">
+                            <label class="form-check-label" for="inlineRadio2">No</label>
+                        </div>
+
+                    </div>
+                    <div class="form-checks pb-1 pt-1">
+                        <label for="form-check" class="pe-3">Attached Balcony</label>
+                        <div class="form-check form-check-inline">
+
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio1s"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio1">Yes</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio2"
+                                value="option4">
+                            <label class="form-check-label" for="inlineRadio2">No</label>
+                        </div>
+
+                    </div>
+                    <div class="form-checks pb-1 pt-1">
+                        <label for="form-check" class="pe-3">Common Area</label>
+                        <div class="form-check form-check-inline">
+
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio1s"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio1">Yes</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio2"
+                                value="option4">
+                            <label class="form-check-label" for="inlineRadio2">No</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">AC</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" required>
+                            <option selected disabled value="">1</option>
+                            <option class="fw-bolder">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6+</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">Bed</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" required>
+                            <option selected disabled value="">1</option>
+                            <option class="fw-bolder">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6+</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">Wardrobe</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" required>
+                            <option selected disabled value="">1</option>
+                            <option class="fw-bolder">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6+</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">TV</label>
+                        <select class="form-select scrollable-menu" id="validationCustom04" required>
+                            <option selected disabled value="">1</option>
+                            <option class="fw-bolder">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6+</option>
+
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+
+                </div>
+                <!-- checkbox -->
+                <div class="row  pt-4">
+                    <div class="col-3-md">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Fridge</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Sofa</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox3">Washing Machine</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox4">Dining table</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox5">Microwave</label>
+                        </div>
+
+
+
+                    </div>
+                    <div class="form-checks pt-3">
+                        <label for="form-check" class="pe-3">Personal washroom</label>
+                        <div class="form-check form-check-inline">
+
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions9" id="inlineRadio1s"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio1">yes</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions10" id="inlineRadio2"
+                                value="option4">
+                            <label class="form-check-label" for="inlineRadio2">NO</label>
+                        </div>
+
+                    </div>
+                    <div class="form-checks pt-2">
+                        <label for="form-check" class="pe-3">Pantry/Cafeteria</label>
+                        <div class="form-check form-check-inline">
+
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions11" id="inlineRadio1s"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio1">Dry</label>
+
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions12" id="inlineRadio2"
+                                value="option4">
+                            <label class="form-check-label" for="inlineRadio2">Wet</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions12" id="inlineRadio2"
+                                value="option4">
+                            <label class="form-check-label" for="inlineRadio2">Not Availbale</label>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <!-- furnishing -->
+        <section>
+            <div class="container w-75 pt-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Furnishing Detail</h3>
+                        <!-- check-item -->
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Cupboards</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Study Detail</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox15" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">AC</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox16" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Geasor</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox17" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Washing machine</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox18" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Wi-fi</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox19" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Fridge</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox20" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Cooler</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox21" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">TV</label>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sqaure-ft -->
+        <section>
+            <div class="container w-75  pt-4 pb-4">
+                <div class="row">
+                    <div class="col col-md-4">
+                        <h2 class="pb-2">Area</h2>
+
+
+
+                        <label for="validationCustom03" class="form-label">Covered Area</label>
+                        <input type="number" class="form-control w-50" placeholder="Enter the city name"
+                            id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+
+
+                        <label for="validationCustom04" class="form-label">Area-</label>
+                        <select class="form-select w-25" id="validationCustom04" required>
+                            <option selected disabled value="">Marla</option>
+                            <option>Sq-ft</option>
+                            <option>Sq-yrd</option>
+                            <option>Sq-m</option>
+                            <option>Acre</option>
+                            <option>Bigha</option>
+                            <option>Hectare</option>
+                            <option>Marla</option>
+                            <option>Kanal</option>
+                            <option>Are</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+            <div class="container w-75">
+                <div class="row">
+                    <div class="col">
+                        <h3>Upload your property's Photos</h3>
+                        <div class="col">
+                            <form action="">
+                                <input type="file" id="input-1" class="file " placeholder="Photos">
+                            </form>
+                            <br>
+
+                            <textarea name="" id="text-image-area"></textarea>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <p class="ps-4">Accepted formats are .jpg, .gif, .bmp & .png. Maximum size allowed is 20 MB.
+                            Minimum
+                            dimension allowed 600*400 Pixel
+                            You can also email them to us for uploading at photos@online property club.com
+                        </p>
+                        <div class="ps-4">
+                            <form action="">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input ps">
+                                    <label for="" class="forn-check-label">I am posting this property 'exclusively' on
+                                        OPC Group
+                                    </label>
+                                    <br>
+                                    <br>
+                                    <input type="checkbox" class="form-check-input ps">
+                                    <label for="" class="forn-check-label">I am the owner/I have the authority to post
+                                        this
+                                        property.
+                                        I agree not to provide incorrect property information or state a discriminatory
+                                        preference.
+                                        In case, the information does not comply with Magicbricks terms, Magicbricks.com
+                                        has
+                                        the right to edit/remove the property from their site.
+                                        OPC Group
+                                    </label>
+                                </div>
+
+                            </form>
+                        </div>
+                        <br>
+                        <div class="col-12 ps-5">
+                            <button class="btn btn-primary" type="submit">Continue to post</button>
+                        </div>
+                        <br>
+                        <div class="foot ps-4">
+                            <h3>Looking to Sell or Rent your Flat?</h3>
+
+                            <p>Do you want to Sell your flat or put your house on rent? Magicbricks has the right
+                                solution for you.Your advertisement will be viewed by millions of buyers and tenants in
+                                India.Magicbricks provides you the best classified for your requirement. Our website
+                                offers one free property ad that you can use for selling or renting . You will be able
+                                to sell or rent every real estate property from flat or house to land , even commercial
+                                property fast and immediately.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./Post-free.js"></script>
+</body>
+
+</html>

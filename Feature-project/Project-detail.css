@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.project-content-opc {
+    height: 500px;
+    width: 100%;
+    background-image: url(./images/wallpaperflare.com_wallpaper-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.more-pic-has {
+
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.more-pic-has button {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(228, 250, 255, 1) 100%);
+
+
+}
+
+.reviews-area button {
+
+    background: rgb(190, 4, 227);
+    background: linear-gradient(90deg, rgba(181, 99, 183) 0%, rgba(181, 99, 183) 0%, rgb(181, 99, 183) 100%);
+}
+
+/* modal gallery */
+.carousel-item img{
+    height: 650px;
+    width: 100%;
+    margin: auto;
+    
+  }
+  
+  
+  
+  .carousel-indicators img{
+    height: 44px;
+    width: 100px;
+  
+  }
+
+
+/* reviews */
+#question-regarding {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.card {
+    width: 380px;
+    border: none;
+    height: 280px;
+}
+
+.ratings {
+    margin-right: 10px;
+}
+
+.ratings i {
+
+    color: #cecece;
+    font-size: 32px;
+}
+
+.rating-color {
+    color: #fbc634 !important;
+}
+
+.review-count {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 16px !important;
+}
+
+.small-ratings i {
+    color: #cecece;
+}
+
+.review-stat {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+
+.overview span{
+    border-bottom: 1px solid green;
+    color: green;
+}
+
+
+
+
+
+
+
+/* list */
+.list-amenties li{
+    list-style: none;
+
+}

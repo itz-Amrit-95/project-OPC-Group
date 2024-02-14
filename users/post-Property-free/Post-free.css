@@ -1,0 +1,9 @@
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+  }
+  #text-image-area{
+    height: 350px;
+    width: 60%;
+  }

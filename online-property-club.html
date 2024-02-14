@@ -1,0 +1,1913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Property Club</title>
+    <link rel="stylesheet" href="./online.property-club.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://kit.fontawesome.com/85fa4e0cbf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-xl   " style="padding-bottom: 20px;padding-top: 0;">
+            <div class="container-fluid bg-dark " style="padding: 10px;">
+
+                <a class="navbar-brand text-light " href="./property.html">Online Property Club</a>
+
+
+
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <select class="form-select " aria-label="Default select example">
+                        <option selected>Chandigarh</option>
+                        <option value="1">Mohali</option>
+                        <option value="2">Kharar</option>
+                        <option value="3">Omaxe</option>
+                    </select>
+                    <ul class="navbar-nav  mb-lg-0  ps-3">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-light  " aria-current="page" href="./property.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./Sellorent/sellorrent.html">Rental</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Home Loan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./interior-home-design/home-design.html">Interiors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./AGENTS/agent.html">Agents</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown" data-bs-theme="dark">
+                            <a class="nav-link dropdown-toggle text-light bg-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                More Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Property Legal Service</a></li>
+                                <li><a class="dropdown-item" href="#">Property Valuation</a></li>
+                                <li><a class="dropdown-item" href="#">Inspection & Allies service</a></li>
+                                <li><a class="dropdown-item" href="#">Online Rent Agrement</a></li>
+                                <li><a class="dropdown-item" href="#">Check Your Credit score</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown " data-bs-theme="dark">
+                            <a class="nav-link dropdown-toggle text-light bg-dark" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Tools</a></li>
+                                <li><a class="dropdown-item" href="#">Solutions</a></li>
+                                <li><a class="dropdown-item" href="./blog-s/Blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Land Reform</a></li>
+                                <li><a class="dropdown-item" href="#">Credit Score</a></li>
+                                <li><a class="dropdown-item" href="#">Conversion</a></li>
+                                <li><a class="dropdown-item" href="#">Price Trends</a></li>
+                                <li><a class="dropdown-item" href="#">Inspiration Book</a></li>
+                                <li><a class="dropdown-item" href="#">Ask</a></li>
+
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item me-2">
+                            <a class="btn btn-primary" href="./users/LOGIN-page/Login.html" role="button">Login</a>
+
+
+                        </li>
+                        <li class="nav-item">
+                            <a class=" btn btn-danger" href="#" role="button">Post-property</a>
+                        </li>
+
+                    </ul>
+
+
+
+
+                </div>
+
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- inputs -->
+    <section class="online-property-club-box pb-3">
+        <div class="text-center pt-3">
+            <h1 class="text-primary animate-head">Online Property Club</h1>
+        </div>
+        <div class="container" id="input-box-opc">
+            <div class="pills-content-list">
+                <ul class="nav nav-pills mb-3 " id="pills-tab-search" role="tablist">
+                    <li class="nav-item property-nav-opc" role="presentation">
+                        <button class="nav-link property-nav active" id="pills-buy-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-one-property" type="button" role="tab" aria-selected="true"><i
+                                class="fa-sharp fa-solid fa-building fa-fade fa-xl"
+                                style="color: #000000; font-size: 27px; "></i>
+                            <p class=" pt-1 m-0">Buy <br><span>Property</span> </p>
+                        </button>
+                    </li>
+                    <li class="nav-item property-nav-opc" role="presentation">
+                        <button class="nav-link property-nav" id="pills-rent-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-rent-project" type="button" role="tab" aria-selected="false"><i
+                                class="fa-solid fa-house-chimney fa-fade fa-lg"
+                                style="color: #000000; font-size: 27px;  "></i>
+                            <p class=" pt-1 m-0">Rent <br><span>Property</span> </p>
+                        </button>
+                    </li>
+                    <li class="nav-item property-nav-opc" role="presentation">
+                        <button class="nav-link property-nav" id="pills-new-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-new-project" type="button" role="tab" aria-selected="false"><i
+                                class="fa-solid fa-house fa-fade fa-lg" style="color: black; font-size: 27px;  "></i>
+                            <p class=" pt-1 m-0">New <br><span>Property</span> </p>
+                        </button>
+                    </li>
+
+                    <li class="nav-item property-nav-opc" role="presentation">
+                        <button class="nav-link property-nav" id="pills-plot-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-plot-project" type="button" role="tab" aria-selected="false"><i
+                                class="fa-solid fa-landmark fa-fade fa-lg"
+                                style="color: #000000; font-size: 27px;  "></i>
+                            <p class=" pt-1 m-0">Plot <br><span>Land</span> </p>
+                        </button>
+                    </li>
+                    <li class="nav-item property-nav-opc" role="presentation">
+                        <button class="nav-link property-nav" id="pills--tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-commercial-project" type="button" role="tab" aria-selected="false"><i
+                                class="fa-solid fa-sink fa-fade fa-lg" style="color: #000000;font-size: 27px;  "></i>
+                            <p class=" pt-1 m-0">Commercial <br><span>Investment</span> </p>
+                        </button>
+                    </li>
+                    <li class="nav-item property-nav-opc" role="presentation">
+                        <button class="nav-link property-nav" id="pills-pg-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-pg" type="button" role="tab" aria-selected="false"><i
+                                class="fa-solid fa-house-chimney fa-fade fa-lg"
+                                style="color: #000000; font-size: 27px;  "></i>
+                            <p class=" pt-1 m-0">Pg/ <br><span>Hostel</span> </p>
+                        </button>
+                    </li>
+
+
+                </ul>
+            </div>
+
+
+            <div class="tab-content" id="pills-tabContent-forms">
+                <div class="tab-pane fade show active" id="pills-one-property" role="tabpanel" tabindex="0">
+
+                    <form action="" class="form-contain" id="form-container">
+                        <div class="col-md-5">
+
+                            <input type="text" class="form-control p-3" id="validationCustom03"
+                                placeholder="Search Using Project Name, Builder, Locality, Land-Mark or Road" required>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select   p-3" id="validationCustom02" required>
+                                <option selected>budget</option>
+                                <option value="1">₹10L</option>
+                                <option value="2">₹20L</option>
+                                <option value="3">₹30L</option>
+                                <option value="4">₹40L</option>
+                                <option value="5">₹50L</option>
+                                <option value="6">₹60L</option>
+                                <option value="7">₹70L</option>
+                                <option value="8">₹80L</option>
+                                <option value="9">₹90L</option>
+                                <option value="10">Above ₹1cr</option>
+                            </select>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom03" style="max-width: 100%;" required>
+                                <option selected disabled value="">Property Type</option>
+                                <option>Commercial</option>
+                                <option>Residental</option>
+                            </select>
+
+                        </div>
+                        <div class="col-2 text-center ">
+                            <button class="btn btn-primary w-100 p-3" type="submit">Search</button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="tab-pane fade" id="pills-rent-project" role="tabpanel" tabindex="0">
+                    <form action="" class="form-contain" id="form-container3">
+                        <div class="col-md-5">
+
+                            <input type="text" class="form-control p-3" id="validationCustom94"
+                                placeholder="Search Using Project Name, Builder, Locality, Land-Mark or Road" required>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom95" required>
+                                <option selected>Budget</option>
+                                <option value="1">₹8000</option>
+                                <option value="2">₹10000</option>
+                                <option value="3">₹15000</option>
+                                <option value="4">₹20000</option>
+                                <option value="5">₹25000</option>
+                                <option value="6">₹40000</option>
+                                <option value="7">₹70000</option>
+                                <option value="8">₹80000</option>
+                                <option value="9">₹90000</option>
+                                <option value="10">Above ₹1lakh</option>
+                            </select>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom96" style="max-width: 100%;" required>
+                                <option selected disabled value="">Property Type</option>
+                                <option value="">Apartment</option>
+                                <option value="">Plot</option>
+                                <option value="">Builder Floor</option>
+                                <option value="">Penthouse</option>
+                                <option value="">Villa</option>
+                                <option value="">Shop</option>
+                                <option value="">Office Space</option>
+                                <option value="">Land</option>
+                                <option value="">Showroom</option>
+                                <option value="">Industrial Plot</option>
+                                <option value="">Warehouse</option>
+                                <option value="">Plot</option>
+                            </select>
+
+                        </div>
+                        <div class="col-2 text-center ">
+                            <button class="btn btn-primary w-100 p-3" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="pills-new-project" role="tabpanel" tabindex="0">
+                    <form action="" class="form-contain" id="form-container2">
+                        <div class="col-md-5">
+
+                            <input type="text" class="form-control p-3" id="validationCustom91"
+                                placeholder="Search Using Project Name, Builder, Locality, Land-Mark or Road" required>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom92" required>
+                                <option selected>budget</option>
+                                <option value="1">₹0L</option>
+                                <option value="2">₹5L</option>
+                                <option value="3">₹10L</option>
+                                <option value="4">₹15L</option>
+                                <option value="5">₹20L</option>
+                                <option value="6">₹30L</option>
+                                <option value="7">₹40L</option>
+                                <option value="8">₹50L</option>
+                                <option value="9">₹55L</option>
+                                <option value="10">₹85L</option>
+                                <option value="10">₹1cr</option>
+                                <option value="10">₹2cr</option>
+                                <option value="10">₹4cr</option>
+                                <option value="10">₹6cr</option>
+                                <option value="10">Above ₹6cr</option>
+                            </select>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom93" required>
+                                <option selected disabled value="">Unit Type</option>
+
+                                <option value="1">Apartment</option>
+                                <option value="2">Villa</option>
+                                <option value="3">Apartment</option>
+                                <option value="4">Penthouse</option>
+                                <option value="5">Retail Shop</option>
+                                <option value="6">Row House</option>
+                                <option value="7">Plot</option>
+                                <option value="8">Townhouse</option>
+
+
+                            </select>
+
+                        </div>
+                        <div class="col-2 text-center ">
+                            <button class="btn btn-primary w-100 p-3" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="tab-pane fade" id="pills-plot-project" role="tabpanel" tabindex="0">
+                    <form action="" class="form-contain" id="form-container4">
+                        <div class="col-md-7">
+
+                            <input type="text" class="form-control p-3" id="validationCustom100"
+                                placeholder="Search Using Project Name, Builder, Locality, Land-Mark or Road" required>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom101" required>
+                                <option selected>Budget</option>
+                                <option value="1">₹5-10L</option>
+                                <option value="2">₹20-40L</option>
+                                <option value="3">₹45-65L</option>
+                                <option value="4">₹70-85L</option>
+                                <option value="5">₹90-95L</option>
+                                <option value="6">₹1-2Cr</option>
+                                <option value="7">₹2.5-3.5Cr</option>
+                                <option value="8">₹4-5.5Cr</option>
+                                <option value="9">₹6-8Cr</option>
+                                <option value="10">Above ₹10cr</option>
+                            </select>
+
+                        </div>
+
+                        <div class="col-2 text-center ">
+                            <button class="btn btn-primary w-100 p-3" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="pills-commercial-project" role="tabpanel" tabindex="0">
+                    <form action="" class="form-contain" id="form-container5">
+                        <div class="col-md-5">
+
+                            <input type="text" class="form-control p-3" id="validationCustom300"
+                                placeholder="Search Using Project Name, Builder, Locality, Land-Mark or Road" required>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom301" required>
+                                <option selected>Buy</option>
+                                <option value="1">Lease</option>
+
+                            </select>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom302" required>
+                                <option selected disabled value="">Unit Type</option>
+                                <option value="1">Industrial Plot</option>
+                                <option value="2">Shop</option>
+                                <option value="3">Land</option>
+                                <option value="4">Showroom</option>
+                                <option value="5">Office Space in IT/SE</option>
+                                <option value="6">Warehouse</option>
+                                <option value="7">Co-working Space</option>
+                                <option value="8">Plot</option>
+                            </select>
+
+                        </div>
+                        <div class="col-2 text-center ">
+                            <button class="btn btn-primary w-100 p-3" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane fade " id="pills-pg" role="tabpanel" tabindex="0">
+
+                    <form action="" class="form-contain" id="form-container">
+                        <div class="col-md-5">
+
+                            <input type="text" class="form-control p-3" id="validationCustom003"
+                                placeholder="Search Using Project Name, Builder, Locality, Land-Mark or Road" required>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select   p-3" id="validationCustom002" style="max-width: 100%;"
+                                required>
+                                <option selected>budget</option>
+                                <option value="1">₹5000</option>
+                                <option value="2">₹10000</option>
+                                <option value="3">₹20000</option>
+                                <option value="4">₹30000</option>
+                                <option value="5">₹40000</option>
+                                <option value="6">₹50000</option>
+                                <option value="7">₹60000</option>
+                                <option value="8">₹70000</option>
+                                <option value="9">₹1L</option>
+                                <option value="10">Above ₹1L</option>
+                            </select>
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <select class="form-select  p-3" id="validationCustom003" required>
+                                <option selected disabled value="">Property Type</option>
+                                <option>Commercial</option>
+                                <option>Residental</option>
+                            </select>
+
+                        </div>
+                        <div class="col-2 text-center ">
+                            <button class="btn btn-primary w-100 p-3" type="submit">Search</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- carousel -->
+    <section class="pt-5 pb-5 ">
+        <div class="container">
+            <div class="col-12" id="feature-pro">
+                <h3 class="text-center">Hot Selling properties </h3>
+
+                <a href="" type="button" id="See-more">See All Project <span>&#x2192;</span></a>
+
+            </div>
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card  " style="width: 100%; height: 100%;">
+                            <img src="./images/tn-sas-itower-project-flagship1-6627.jpg.webp" height="300px"
+                                width="100%" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Asbl Loft</h5>
+                                <p>Financial district hydrabad</p>
+                                <strong class="text-center">New launch</strong>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="pt-2 pb-2">₹ 1.44 Cr to 1.59 Cr
+                                    <br>
+                                    3Bhk flats with 1,695-1,870 SQ.FT (Saleable)
+                                </p>
+
+                                <button type="button" class="btn btn-primary"> Get Call Back</button>
+                                <button type="button" class="btn btn-secondary">  Details </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card  " style="width: 100%; height: 100%;">
+                            <img src="./images/tn-sas-itower-project-flagship1-6627.jpg.webp" height="300px"
+                                width="100%" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Asbl Loft</h5>
+                                <p>Financial district hydrabad</p>
+                                <strong class="text-center">New launch</strong>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="pt-2 pb-2">₹ 1.44 Cr to 1.59 Cr
+                                    <br>
+                                    3Bhk flats with 1,695-1,870 SQ.FT (Saleable)
+                                </p>
+
+                                <button type="button" class="btn btn-primary"> Get Call Back</button>
+                                <button type="button" class="btn btn-secondary">Detail</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card  " style="width: 100%; height: 100%;">
+                            <img src="./images/tn-sas-itower-project-flagship1-6627.jpg.webp" height="300px"
+                                width="100%" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Asbl Loft</h5>
+                                <p>Financial district hydrabad</p>
+                                <strong class="text-center">New launch</strong>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="pt-2 pb-2">₹ 1.44 Cr to 1.59 Cr
+                                    <br>
+                                    3Bhk flats with 1,695-1,870 SQ.FT (Saleable)
+                                </p>
+
+                                <button type="button" class="btn btn-primary"> Get Call Back</button>
+                                <button type="button" class="btn btn-secondary">Detail</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card  " style="width: 100%; height: 100%;">
+                            <img src="./images/tn-sas-itower-project-flagship1-6627.jpg.webp" height="300px"
+                                width="100%" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Asbl Loft</h5>
+                                <p>Financial district hydrabad</p>
+                                <strong class="text-center">New launch</strong>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="pt-2 pb-2">₹ 1.44 Cr to 1.59 Cr
+                                    <br>
+                                    3Bhk flats with 1,695-1,870 SQ.FT (Saleable)
+                                </p>
+
+                                <button type="button" class="btn btn-primary"> Get Call Back</button>
+                                <button type="button" class="btn btn-secondary">Detail</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card  " style="width: 100%; height: 100%;">
+                            <img src="./images/tn-sas-itower-project-flagship1-6627.jpg.webp" height="300px"
+                                width="100%" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Asbl Loft</h5>
+                                <p>Financial district hydrabad</p>
+                                <strong class="text-center">New launch</strong>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="pt-2 pb-2">₹ 1.44 Cr to 1.59 Cr
+                                    <br>
+                                    3Bhk flats with 1,695-1,870 SQ.FT (Saleable)
+                                </p>
+
+                                <button type="button" class="btn btn-primary"> Get all back</button>
+                                <button type="button" class="btn btn-secondary">Detail</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <!-- featured Collection -->
+    <section>
+        <div class="container pt-3 pb-4">
+            <div class="row">
+                <div class="col-12" id="feature-pro">
+                    <h3 class="text-center">Featured Projects </h3>
+
+                    <a href="" type="button" id="See-more">See All Project <span>&#x2192;</span></a>
+
+                </div>
+
+
+                <div #swiperRef="" class="swiper reveal-swiper" id="swiper-1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="swiper-slide-1">
+                            <div class="card h-100">
+                                <img src="./images/wallpaperflare.com_wallpaper.jpg"  width="100%"
+                                    class="card-img-top img-fluid" alt="..." style="max-height: 250px;">
+                                <div class="card-body card-detail">
+                                    <div class="title-detail text-start">
+                                        <h5 class="card-title">Muppa's Melody</h5>
+                                        <p class="m-0">by Muppa Projects India Pvt Ltd</p>
+                                        <p class="m-0">Tellapur, Hyderabad</p>
+
+                                        <p class="m-0">Marketed by Muppa Projects India Pvt Ltd
+
+                                        </p>
+                                    </div>
+                                    <div class="title-detail-2">
+                                        <p class="m-0"> 2,3 BHK</p>
+                                        <p>₹69lakh <span> Onwards</span></p>
+                                        <button href="" class="btn btn-danger ps-4 pe-4">Detail</button>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card h-100   ">
+                                <img src="./images/wallpaperflare.com_wallpaper.jpg"  width="100%"
+                                    class="card-img-top" alt="..." style="max-height: 250px;">
+                                <div class="card-body card-detail">
+                                    <div class="title-detail text-start">
+                                        <h5 class="card-title">Muppa's Melody</h5>
+                                        <p class="m-0">by Muppa Projects India Pvt Ltd</p>
+                                        <p class="m-0">Tellapur, Hyderabad</p>
+
+                                        <p class="m-0">Marketed by Muppa Projects India Pvt Ltd
+
+                                        </p>
+                                    </div>
+                                    <div class="title-detail-2">
+                                        <p class="m-0"> 2,3 BHK</p>
+                                        <p>₹69lakh <span> Onwards</span></p>
+                                        <button href="" class="btn btn-danger ps-4 pe-4">Detail</button>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  ">
+                            <div class="card h-100  ">
+                                <img src="./images/wallpaperflare.com_wallpaper.jpg"  width="100%"
+                                    class="card-img-top" alt="..." style="max-height: 250px;">
+                                <div class="card-body card-detail">
+                                    <div class="title-detail text-start">
+                                        <h5 class="card-title">Muppa's Melody</h5>
+                                        <p class="m-0">by Muppa Projects India Pvt Ltd</p>
+                                        <p class="m-0">Tellapur, Hyderabad</p>
+
+                                        <p class="m-0">Marketed by Muppa Projects India Pvt Ltd
+
+                                        </p>
+                                    </div>
+                                    <div class="title-detail-2">
+                                        <p class="m-0"> 2,3 BHK</p>
+                                        <p>₹69lakh <span> Onwards</span></p>
+                                        <button href="" class="btn btn-danger ps-4 pe-4">Detail</button>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide  ">
+                            <div class="card  h-100 ">
+                                <img src="./images/wallpaperflare.com_wallpaper.jpg" width="100%"
+                                    class="card-img-top" alt="..." style="max-height: 250px;">
+                                <div class="card-body card-detail">
+                                    <div class="title-detail text-start">
+                                        <h5 class="card-title">Muppa's Melody</h5>
+                                        <p class="m-0">by Muppa Projects India Pvt Ltd</p>
+                                        <p class="m-0">Tellapur, Hyderabad</p>
+
+                                        <p class="m-0">Marketed by Muppa Projects India Pvt Ltd
+
+                                        </p>
+                                    </div>
+                                    <div class="title-detail-2">
+                                        <p class="m-0"> 2,3 BHK</p>
+                                        <p>₹69lakh <span> Onwards</span></p>
+                                        <button href="" class="btn btn-danger ps-4 pe-4">Detail</button>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="card h-100  ">
+                                <img src="./images/wallpaperflare.com_wallpaper.jpg"  width="100%"
+                                    class="card-img-top" alt="..." style="max-height: 250px;">
+                                <div class="card-body card-detail">
+                                    <div class="title-detail text-start">
+                                        <h5 class="card-title">Muppa's Melody</h5>
+                                        <p class="m-0">by Muppa Projects India Pvt Ltd</p>
+                                        <p class="m-0">Tellapur, Hyderabad</p>
+
+                                        <p class="m-0">Marketed by Muppa Projects India Pvt Ltd
+
+                                        </p>
+                                    </div>
+                                    <div class="title-detail-2">
+                                        <p class="m-0"> 2,3 BHK</p>
+                                        <p>₹69lakh <span> Onwards</span></p>
+                                        <button href="" class="btn btn-danger ps-4 pe-4">Detail</button>
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- new Properties -->
+    <section>
+
+        <div class="container-fluid pt-4 pb-5">
+
+
+
+            <h3 class="text-center"> Trending in Chandigarh</h3>
+            <div #swiperRef="" class="swiper mySwiper3" id="mySwiper3">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide new-prop-opc ">
+
+                        <div class="hover hover-1 text-white h-100 w-100 rounded"><img
+                                src="./images/pexels-pixabay-358636.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-1-content px-5 py-4">
+                                <h5 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                        class="font-weight-light">Ready
+                                    </span>To Move</h5>
+                                <a class="hover-1-description font-weight-light mb-0">213+ Properties></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide new-prop-opc ">
+
+                        <div class="hover hover-1 text-white h-100 w-100 rounded"><img
+                                src="./images/pexels-pixabay-259588.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-1-content px-5 py-4">
+                                <h5 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                        class="font-weight-light">Ready
+                                    </span>To Move</h5>
+                                <a class="hover-1-description font-weight-light mb-0">213+ Properties></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide new-prop-opc ">
+
+                        <div class="hover hover-1 text-white h-100 w-100 rounded"><img
+                                src="./images/pexels-pixabay-358636.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-1-content px-5 py-4">
+                                <h5 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                        class="font-weight-light">Ready
+                                    </span>To Move</h5>
+                                <a class="hover-1-description font-weight-light mb-0">213+ Properties></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide new-prop-opc ">
+
+                        <div class="hover hover-1 text-white h-100 w-100 rounded"><img
+                                src="./images/pexels-pixabay-259588.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-1-content px-5 py-4">
+                                <h5 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                        class="font-weight-light">Ready
+                                    </span>To Move</h5>
+                                <a class="hover-1-description font-weight-light mb-0">213+ Properties></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide new-prop-opc ">
+
+                        <div class="hover hover-1 text-white h-100 w-100 rounded"><img
+                                src="./images/pexels-pixabay-358636.jpg" alt="">
+                            <div class="hover-overlay"></div>
+                            <div class="hover-1-content px-5 py-4">
+                                <h5 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span
+                                        class="font-weight-light">Ready
+                                    </span>To Move</h5>
+                                <a class="hover-1-description font-weight-light mb-0">213+ Properties></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <!-- sale Properties -->
+    <section>
+
+        <div class="container-fluid pb-5">
+            <div class="row">
+                <div class="col text-center">
+                    <h3 class="font-weight-bold mb-0">Properties for Sale in Chadigarh
+                    </h3>
+                    <p class="font-italic text-muted mb-4">(Chandigarh)</p>
+                </div>
+
+                <ul class="nav nav-pills mb-3 align pt-2" id="pills-tab" role="tablist">
+                    <li class="nav-item pe-3" role="presentation">
+                        <button class="nav-link active  " id="pills-Most-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Most" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Most Popular</button>
+                    </li>
+                    <li class="nav-item pe-3" role="presentation">
+                        <button class="nav-link  " id="pills-By-tab" data-bs-toggle="pill" data-bs-target="#pills-By"
+                            type="button" role="tab" aria-controls="pills-By" aria-selected="false">By Budget</button>
+                    </li>
+                    <li class="nav-item pe-3" role="presentation">
+                        <button class="nav-link  " id="pills-type-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-type" type="button" role="tab" aria-controls="pills-type"
+                            aria-selected="false">By Property Type</button>
+                    </li>
+                    <li class="nav-item pe-3" role="presentation">
+                        <button class="nav-link " id="pills-bhk-tab" data-bs-toggle="pill" data-bs-target="#pills-bhk"
+                            type="button" role="tab" aria-controls="pills-bhk" aria-selected="false">By BHK</button>
+                    </li>
+
+                </ul>
+                <div class="tab-content pt-4" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-Most" role="tabpanel" tabindex="0">
+                        <div class="container-fluid ">
+
+
+
+
+
+
+                            <div class="py-2">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white "><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/r-architecture-2gDwlIim3Uw-unsplash.jpg " height="100%"
+                                                width="100%">
+                                            <div class=" hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/todd-kent-178j8tJrNlc-unsplash.jpg" height="100%"
+                                                width="100%">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-By" role="tabpanel" tabindex="0">
+                        <div class="container-fluid ">
+
+
+
+
+
+
+                            <div class="py-2">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white "><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/r-architecture-2gDwlIim3Uw-unsplash.jpg " height="100%"
+                                                width="100%">
+                                            <div class=" hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/todd-kent-178j8tJrNlc-unsplash.jpg" height="100%"
+                                                width="100%">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-type" role="tabpanel" tabindex="0">
+                        <div class="container-fluid ">
+
+
+
+
+
+
+                            <div class="py-2">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white "><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/r-architecture-2gDwlIim3Uw-unsplash.jpg " height="100%"
+                                                width="100%">
+                                            <div class=" hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/todd-kent-178j8tJrNlc-unsplash.jpg" height="100%"
+                                                width="100%">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-bhk" role="tabpanel" tabindex="0">
+                        <div class="container-fluid ">
+
+
+
+
+
+
+                            <div class="py-2">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white "><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/r-architecture-2gDwlIim3Uw-unsplash.jpg " height="100%"
+                                                width="100%">
+                                            <div class=" hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/todd-kent-178j8tJrNlc-unsplash.jpg" height="100%"
+                                                width="100%">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- rent Properties -->
+    <section>
+        <div class="container-fluid pb-5">
+            <div class="row ">
+                <div class="col">
+                    <h3 class="text-center">Properties for Rent in New Chandigarh</h1>
+                </div>
+                <!-- tabs -->
+                <ul class="nav nav-pills mb-3 align pt-2" id="pills-tab" role="tablist">
+                    <li class="nav-item pe-3" role="presentation">
+                        <button class="nav-link active  " id="pills-Most-tab1" data-bs-toggle="pill"
+                            data-bs-target="#pills-Most1" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Most Popular</button>
+                    </li>
+                    <li class="nav-item pe-3" role="presentation">
+                        <button class="nav-link  " id="pills-By-tab1" data-bs-toggle="pill" data-bs-target="#pills-By1"
+                            type="button" role="tab" aria-controls="pills-By" aria-selected="false">By Budget</button>
+                    </li>
+                    <li class="nav-item pe-3" role="presentation">
+                        <button class="nav-link  " id="pills-type-tab1" data-bs-toggle="pill"
+                            data-bs-target="#pills-type1" type="button" role="tab" aria-controls="pills-type"
+                            aria-selected="false">By Property Type</button>
+                    </li>
+                    <li class="nav-item pe-3" role="presentation">
+                        <button class="nav-link " id="pills-bhk-tab1" data-bs-toggle="pill" data-bs-target="#pills-bhk1"
+                            type="button" role="tab" aria-controls="pills-bhk" aria-selected="false">By BHK</button>
+                    </li>
+
+                </ul>
+                <div class="tab-content pt-4" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-Most1" role="tabpanel" tabindex="0">
+                        <div class="container-fluid ">
+
+
+
+
+
+
+                            <div class="py-2">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white "><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/r-architecture-2gDwlIim3Uw-unsplash.jpg " height="100%"
+                                                width="100%">
+                                            <div class=" hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/todd-kent-178j8tJrNlc-unsplash.jpg" height="100%"
+                                                width="100%">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-By1" role="tabpanel" tabindex="0">
+                        <div class="container-fluid ">
+
+
+
+
+
+
+                            <div class="py-2">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white "><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/r-architecture-2gDwlIim3Uw-unsplash.jpg " height="100%"
+                                                width="100%">
+                                            <div class=" hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/todd-kent-178j8tJrNlc-unsplash.jpg" height="100%"
+                                                width="100%">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-type1" role="tabpanel" tabindex="0">
+                        <div class="container-fluid ">
+
+
+
+
+
+
+                            <div class="py-2">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white "><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/r-architecture-2gDwlIim3Uw-unsplash.jpg " height="100%"
+                                                width="100%">
+                                            <div class=" hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/todd-kent-178j8tJrNlc-unsplash.jpg" height="100%"
+                                                width="100%">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-bhk1" role="tabpanel" tabindex="0">
+                        <div class="container-fluid ">
+
+
+
+
+
+
+                            <div class="py-2">
+
+                                <div class="row">
+
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white "><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/r-architecture-2gDwlIim3Uw-unsplash.jpg " height="100%"
+                                                width="100%">
+                                            <div class=" hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/todd-kent-178j8tJrNlc-unsplash.jpg" height="100%"
+                                                width="100%">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-3 mb-lg-0">
+                                        <div class="hover hover-2 text-white rounded"><img
+                                                src="./images/dillon-kydd-XGvwt544g8k-unsplash.jpg" height="100%"
+                                                width="100%" alt="">
+                                            <div class="hover-overlay"></div>
+                                            <div class="hover-2-content px-5 py-4">
+
+                                                <p class="hover-2-description text-uppercase mb-0">Ready to Move
+
+                                                    <br> 437+ Properties.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- r u owner? -->
+    <section>
+        <div class="container pt-4 pb-4">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h5>Are you an owner?</h5>
+                <h3>Sell or Rent your property faster with OPC Group</h3>
+              </div>
+              <div class="row pt-5 d-flex  justify-content-evenly align-items-center">
+                <div class="col-6">
+                  <img src="./images/wallpaperflare.com_wallpaper copy 3.jpg" class=" img-fluid rounded w-100" alt="">
+                </div>
+                <div class="col-6 ">
+                  <div class="register-opc-prop  text-center">
+                    <h6>POST YOUR PROPERTY</h6>
+                    <h2>Register to post your property for  <span class="badge bg-secondary">Free</span></h2>
+                    <h4>Sell or rent your residential/ commercial property</h4>
+                    <br>
+                    <button class="btn btn-primary">Post Your Property For Free</button>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        
+    </section>
+    <!-- sell rent -->
+    <section>
+        <div class="container pt-5 pb-5">
+            <div class="row d-flex justify-content-around align-items-center p-5" id="circle-free">
+                <div class="col-7   ">
+                    <div class="heading-post text-center">
+                        <h3>Post Your Property For Free</h3>
+
+                        <h6>List It On Online Property Club And Get Genuine Leads</h6>
+                    </div>
+
+                </div>
+                <div class="col-5 text-center">
+                    <button class="btn btn-success animate-btn">Post Property <span
+                            class="badge bg-secondary">New</span> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+
+                    <div class="row d-flex justify-content-center">
+
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+
+
+
+                        <div class="col-md-5 col-12">
+
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Email address</label>
+                            </div>
+                        </div>
+
+                        <div class="col-auto">
+
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+
+                    </div>
+
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <h3>About Online Property Club</h3>
+                <p>
+                    Online Property club is a full stack service provider for all real estate needs, with 15+ services
+                    including
+                    home loans, pay rent, packers and movers, legal assistance, property valuation, and expert advice.
+                    As the
+                    largest platform for buyers and sellers of property to connect in a transparent manner, Magicbricks
+                    has an
+                    active base of over 15 lakh property listings.
+
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Properties in india</h5>
+
+                        <ul class="list-unstyled mb-0 hover-eff">
+                            <li>
+                                <a href="#!" class="text-white">Property in new delhi</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Property in Mumbai</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Property in Chennai</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Property in Pune</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Property in Noida</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Property in Gurgoun</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Property in Banglore</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Property in Ahmedabad</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Properties in India</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">New Project in new delhi</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">New Project in Mumbai</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">New Project in Chennai</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">New Project in Pune</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">New Project in Noida</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">New Project in Gurgoun</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">New Project in Banglore</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">New Project in Ahmedabad</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0" id="contact-sec">
+
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New Chandigarh omaxe</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- images -->
+        <section>
+            <div class="container p-4">
+
+                <section class="">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image" data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                                    class="w-100 img-effect" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image " data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp"
+                                    class="w-100 img-effect" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image " data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp"
+                                    class="w-100 img-effect" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image " data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp"
+                                    class="w-100 img-effect" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image " data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp"
+                                    class="w-100 img-effect" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                            <div class="bg-image" data-ripple-color="light">
+                                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp"
+                                    class="w-100  img-effect" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid gx-0 pb-2" style="overflow: hidden;">
+                <div class="row">
+                    <div class="col">
+                        <ul class="list-unstyled mb-0 list-animate" id="default-list">
+                            <li><a href="">Sitemap</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Testimonials</a></li>
+                            <li><a href="">Feedback</a></li>
+                            <li><a href="">Unsubscribe</a></li>
+                            <li><a href="">Help Center</a></li>
+                            <li><a href="">Sales Enquiry</a></li>
+                            <li><a href="">Buy Our Services</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p style="font-size: 14px;">Disclaimer: Magicbricks Realty Services Limited is only an
+                            intermediary offering its platform to advertise properties of Seller for a
+                            Customer/Buyer/User coming on its Website and is not and cannot be a party to or privy to or
+                            control in any manner any transactions between the Seller and the Customer/Buyer/User. All
+                            the offers and discounts on this Website have been extended by Read more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Copyright -->
+        <div class="text-center pt-2" style="background-color: rgba(0, 0, 0, 0.2);">
+            All trademarks, logos and names are properties of their respective owners. All Rights Reserved. © Copyright
+            2023
+            Magicbricks Realty Services Limited.
+            <a class="text-white" href="">Online Property Club</a>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./online-property-club.js"></script>
+</body>
+
+</html>
